@@ -34,7 +34,6 @@ Please read the LICENSE.
 3. You will need to edit the commented sections at the beginning of the traclight.rb file in order to add your project related info. 
 
 4. Once you have entered your information in the script, you can simply run:
-
     traclight.rb PATH_TO_YOUR_TRAC_DB
 
 
