@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+
+# Please see attached LICENSE and README.markdown
+
 require 'rubygems'
 require 'activerecord'
 require 'activesupport'
