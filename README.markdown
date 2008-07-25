@@ -1,9 +1,10 @@
 Traclight 
+---------
 version 0.1
+
 http://tech.howcast.com
 
-A simple script to import a trac.db file into Lighthouse.
-
+Why hello, you have stumbled upon a simple script to import a trac.db file into Lighthouse.
 
 ## Requirements
 - activerecord
