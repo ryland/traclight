@@ -88,10 +88,13 @@ class TracTicket < ActiveRecord::Base
                            :assigned_user_id => USERS[owner],  
                            :state => STATES[resolution || status],  
                            :milestone_id => MILESTONES[milestone] )
-    t.tags << taggify(component) << taggify(priority)
-    t.body << "\n _Originally reported by *#{reporter}* via Trac_\n" if reporter
-    t.body << formatted_comments unless comments.empty?
+    t.tags << taggify(component) unless component.nil?
+    t.tags << taggify(priority) unless priority.nil?
     t.save
+    comments.each { |c|
+	    t.body = format_trac_text(c.newvalue)
+	    t.save
+    }
     t
   end
 

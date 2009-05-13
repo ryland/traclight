@@ -14,7 +14,6 @@ Why hello, you have stumbled upon a simple script to import a trac.db database f
 - lighthouse-api (http://github.com/Caged/lighthouse-api/tree/master)
 
 ## Limitations
-- Due to the Lighthouse API limitations, ticket comments will be merged into a formatted description of the ticket.
 - The tickets will show up as being reported by the owner of the account you specify in the ticket, not the original reporter. The original Trac reporter will show up in the description for the ticket.
 - It is not possible to set the original date the ticket was reported in Lighthouse. The original reporting date of the Trac ticket will appear in the Lighthouse ticket description.
 - Attachments are _not_ imported, as support currently doesn't exist in the API.
