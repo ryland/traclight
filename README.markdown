@@ -1,6 +1,6 @@
 Traclight 
 ---------
-- version 0.1
+- version 0.2
 - author: Ry Wharton
 - url: http://tech.howcast.com
 - source: http://github.com/ryland/traclight/tree/master
@@ -36,3 +36,5 @@ Please read the LICENSE.
     traclight.rb PATH_TO_YOUR_TRAC_DB
 
 
+
+Thanks to Florian Muellner for comment migration code.
